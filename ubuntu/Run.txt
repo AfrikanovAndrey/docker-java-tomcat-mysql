@@ -1,0 +1,1 @@
+docker run -d -p 33306:3306 -p 9999:8080 -e MYSQL_ROOT_PASSWORD=root --name=test test
